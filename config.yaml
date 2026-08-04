@@ -1,0 +1,97 @@
+# Kimi-PIMCP Configuration
+
+# Server settings
+server:
+  name: "kimi-pimcp"
+  version: "0.1.0"
+  protocol_version: "2024-11-05"
+
+# Model settings
+models:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  cross_encoder_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  use_cross_encoder: true
+  rerank_threshold: 20
+
+# Indexer settings
+indexer:
+  supported_extensions:
+    - ".py"
+    - ".js"
+    - ".jsx"
+    - ".ts"
+    - ".tsx"
+    - ".json"
+    - ".yaml"
+    - ".yml"
+    - ".md"
+  exclude_dirs:
+    - "node_modules"
+    - ".git"
+    - "__pycache__"
+    - ".venv"
+    - "venv"
+    - "dist"
+    - "build"
+    - ".kimi_cache"
+  cache_dir: "~/.kimi_cache/indexes"
+
+# Retriever settings
+retriever:
+  default_top_k: 5
+  default_use_mmr: true
+  mmr_lambda: 0.5
+  context_lines: 3
+
+# Skill router settings
+router:
+  use_svm: true
+  dataset_path: "data/datasets/skill_queries.json"
+
+# Compressor settings
+compressor:
+  default_level: "auto"
+  levels:
+    lite:
+      description: "Minimal compression - removes articles only"
+      token_reduction_target: 0.1
+    full:
+      description: "Standard compression - removes filler words"
+      token_reduction_target: 0.3
+    ultra:
+      description: "Aggressive compression - removes most fillers"
+      token_reduction_target: 0.5
+    wenyan:
+      description: "Maximum compression - code-focused"
+      token_reduction_target: 0.7
+
+# Skill settings
+skills:
+  debugger:
+    temperature: 0.3
+    max_tokens: 4096
+  architect:
+    temperature: 0.7
+    max_tokens: 4096
+  explainer:
+    temperature: 0.5
+    max_tokens: 4096
+  tester:
+    temperature: 0.4
+    max_tokens: 4096
+  caveman:
+    temperature: 0.3
+    max_tokens: 2048
+
+# Performance targets
+performance:
+  target_index_time_per_file_ms: 100
+  target_query_time_ms: 200
+  target_classification_time_ms: 10
+  target_compression_time_ms: 5
+  max_memory_mb: 500
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "kimi-pimcp": {
+      "name": "Kimi Project Intelligence MCP",
+      "description": "Semantic indexing and intelligent context retrieval for code projects",
+      "version": "0.1.0",
+      "command": "python",
+      "args": [
+        "-m",
+        "src.server"
+      ],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+        "KIMI_PIMCP_CACHE_DIR": "${home}/.kimi_cache",
+        "KIMI_PIMCP_LOG_LEVEL": "INFO"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "initialize_index",
+        "query_context",
+        "select_skill",
+        "compress_output",
+        "get_stats"
+      ]
+    }
+  }
+}

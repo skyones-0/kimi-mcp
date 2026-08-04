@@ -1,0 +1,1802 @@
+[
+  {
+    "query": "el login devuelve 401 despu\u00e9s del \u00faltimo commit",
+    "skill": "debugger",
+    "context": "auth_error",
+    "confidence": "high"
+  },
+  {
+    "query": "user authentication failing with timeout",
+    "skill": "debugger",
+    "context": "network_error",
+    "confidence": "high"
+  },
+  {
+    "query": "por qu\u00e9 el componente se re-renderiza infinitamente",
+    "skill": "debugger",
+    "context": "react_performance",
+    "confidence": "high"
+  },
+  {
+    "query": "fix bug in middleware causing crash",
+    "skill": "debugger",
+    "context": "server_error",
+    "confidence": "high"
+  },
+  {
+    "query": "error en la consulta SQL de usuarios",
+    "skill": "debugger",
+    "context": "database_error",
+    "confidence": "high"
+  },
+  {
+    "query": "null pointer exception in production",
+    "skill": "debugger",
+    "context": "runtime_error",
+    "confidence": "high"
+  },
+  {
+    "query": "memory leak in nodejs application",
+    "skill": "debugger",
+    "context": "performance",
+    "confidence": "high"
+  },
+  {
+    "query": "api returning 500 internal server error",
+    "skill": "debugger",
+    "context": "server_error",
+    "confidence": "high"
+  },
+  {
+    "query": "cors error when calling backend",
+    "skill": "debugger",
+    "context": "cors_error",
+    "confidence": "high"
+  },
+  {
+    "query": "database connection timeout",
+    "skill": "debugger",
+    "context": "database_error",
+    "confidence": "high"
+  },
+  {
+    "query": "c\u00f3mo deber\u00eda estructurar la arquitectura de microservicios",
+    "skill": "architect",
+    "context": "system_design",
+    "confidence": "high"
+  },
+  {
+    "query": "proponer refactor de este m\u00f3dulo monol\u00edtico",
+    "skill": "architect",
+    "context": "refactoring",
+    "confidence": "high"
+  },
+  {
+    "query": "dise\u00f1ar schema de base de datos para e-commerce",
+    "skill": "architect",
+    "context": "database_design",
+    "confidence": "high"
+  },
+  {
+    "query": "qu\u00e9 patr\u00f3n usar para este servicio de notificaciones",
+    "skill": "architect",
+    "context": "patterns",
+    "confidence": "high"
+  },
+  {
+    "query": "c\u00f3mo escalar el sistema para 1M usuarios",
+    "skill": "architect",
+    "context": "scalability",
+    "confidence": "high"
+  },
+  {
+    "query": "design api gateway for microservices",
+    "skill": "architect",
+    "context": "api_design",
+    "confidence": "high"
+  },
+  {
+    "query": "implement event-driven architecture",
+    "skill": "architect",
+    "context": "architecture",
+    "confidence": "high"
+  },
+  {
+    "query": "best way to handle database migrations",
+    "skill": "architect",
+    "context": "database",
+    "confidence": "medium"
+  },
+  {
+    "query": "separate concerns in react application",
+    "skill": "architect",
+    "context": "frontend",
+    "confidence": "medium"
+  },
+  {
+    "query": "implement caching strategy",
+    "skill": "architect",
+    "context": "performance",
+    "confidence": "high"
+  },
+  {
+    "query": "explica qu\u00e9 hace esta funci\u00f3n de reducci\u00f3n",
+    "skill": "explainer",
+    "context": "code_reading",
+    "confidence": "high"
+  },
+  {
+    "query": "c\u00f3mo funciona el hook useEffect en este componente",
+    "skill": "explainer",
+    "context": "react_concepts",
+    "confidence": "high"
+  },
+  {
+    "query": "documentar este m\u00f3dulo de autenticaci\u00f3n",
+    "skill": "explainer",
+    "context": "documentation",
+    "confidence": "high"
+  },
+  {
+    "query": "qu\u00e9 es el patr\u00f3n singleton y por qu\u00e9 se usa aqu\u00ed",
+    "skill": "explainer",
+    "context": "design_patterns",
+    "confidence": "high"
+  },
+  {
+    "query": "para qu\u00e9 sirve este decorator @require_auth",
+    "skill": "explainer",
+    "context": "code_reading",
+    "confidence": "high"
+  },
+  {
+    "query": "explain how promises work in javascript",
+    "skill": "explainer",
+    "context": "javascript",
+    "confidence": "high"
+  },
+  {
+    "query": "what is dependency injection",
+    "skill": "explainer",
+    "context": "concepts",
+    "confidence": "high"
+  },
+  {
+    "query": "how does async await work",
+    "skill": "explainer",
+    "context": "async",
+    "confidence": "high"
+  },
+  {
+    "query": "explain this regex pattern",
+    "skill": "explainer",
+    "context": "regex",
+    "confidence": "high"
+  },
+  {
+    "query": "what is the difference between let and const",
+    "skill": "explainer",
+    "context": "javascript",
+    "confidence": "medium"
+  },
+  {
+    "query": "generar tests unitarios para el servicio de pagos",
+    "skill": "tester",
+    "context": "unit_testing",
+    "confidence": "high"
+  },
+  {
+    "query": "crear test de integraci\u00f3n para el endpoint /api/users",
+    "skill": "tester",
+    "context": "integration_testing",
+    "confidence": "high"
+  },
+  {
+    "query": "faltan casos edge en los tests del login",
+    "skill": "tester",
+    "context": "edge_cases",
+    "confidence": "high"
+  },
+  {
+    "query": "implementar tests e2e para el flujo de checkout",
+    "skill": "tester",
+    "context": "e2e_testing",
+    "confidence": "high"
+  },
+  {
+    "query": "cu\u00e1l es la cobertura de tests actual",
+    "skill": "tester",
+    "context": "coverage",
+    "confidence": "medium"
+  },
+  {
+    "query": "write unit tests for this function",
+    "skill": "tester",
+    "context": "unit_testing",
+    "confidence": "high"
+  },
+  {
+    "query": "add integration tests for database layer",
+    "skill": "tester",
+    "context": "integration_testing",
+    "confidence": "high"
+  },
+  {
+    "query": "mock external api in tests",
+    "skill": "tester",
+    "context": "mocking",
+    "confidence": "high"
+  },
+  {
+    "query": "setup jest for react testing",
+    "skill": "tester",
+    "context": "configuration",
+    "confidence": "high"
+  },
+  {
+    "query": "test error handling scenarios",
+    "skill": "tester",
+    "context": "edge_cases",
+    "confidence": "high"
+  },
+  {
+    "query": "fix the null reference error",
+    "skill": "debugger",
+    "context": "null_error",
+    "confidence": "high"
+  },
+  {
+    "query": "why is my loop infinite",
+    "skill": "debugger",
+    "context": "logic_error",
+    "confidence": "high"
+  },
+  {
+    "query": "css styles not applying correctly",
+    "skill": "debugger",
+    "context": "css",
+    "confidence": "medium"
+  },
+  {
+    "query": "webpack build failing",
+    "skill": "debugger",
+    "context": "build_error",
+    "confidence": "high"
+  },
+  {
+    "query": "docker container won't start",
+    "skill": "debugger",
+    "context": "docker",
+    "confidence": "high"
+  },
+  {
+    "query": "design rest api for mobile app",
+    "skill": "architect",
+    "context": "api_design",
+    "confidence": "high"
+  },
+  {
+    "query": "implement oauth2 authentication flow",
+    "skill": "architect",
+    "context": "security",
+    "confidence": "high"
+  },
+  {
+    "query": "structure large react application",
+    "skill": "architect",
+    "context": "frontend",
+    "confidence": "high"
+  },
+  {
+    "query": "choose between sql and nosql",
+    "skill": "architect",
+    "context": "database",
+    "confidence": "high"
+  },
+  {
+    "query": "implement load balancing",
+    "skill": "architect",
+    "context": "infrastructure",
+    "confidence": "high"
+  },
+  {
+    "query": "explain closure in javascript",
+    "skill": "explainer",
+    "context": "javascript",
+    "confidence": "high"
+  },
+  {
+    "query": "how does react virtual dom work",
+    "skill": "explainer",
+    "context": "react",
+    "confidence": "high"
+  },
+  {
+    "query": "what is event loop in nodejs",
+    "skill": "explainer",
+    "context": "nodejs",
+    "confidence": "high"
+  },
+  {
+    "query": "explain http status codes",
+    "skill": "explainer",
+    "context": "http",
+    "confidence": "medium"
+  },
+  {
+    "query": "document this api endpoint",
+    "skill": "explainer",
+    "context": "documentation",
+    "confidence": "high"
+  },
+  {
+    "query": "create test suite for auth module",
+    "skill": "tester",
+    "context": "unit_testing",
+    "confidence": "high"
+  },
+  {
+    "query": "add snapshot tests for components",
+    "skill": "tester",
+    "context": "snapshot",
+    "confidence": "high"
+  },
+  {
+    "query": "test performance under load",
+    "skill": "tester",
+    "context": "performance",
+    "confidence": "high"
+  },
+  {
+    "query": "validate form input handling",
+    "skill": "tester",
+    "context": "validation",
+    "confidence": "medium"
+  },
+  {
+    "query": "setup cypress for e2e testing",
+    "skill": "tester",
+    "context": "configuration",
+    "confidence": "high"
+  },
+  {
+    "query": "api returning wrong data format",
+    "skill": "debugger",
+    "context": "data_error",
+    "confidence": "high"
+  },
+  {
+    "query": "session not persisting between requests",
+    "skill": "debugger",
+    "context": "session_error",
+    "confidence": "high"
+  },
+  {
+    "query": "file upload not working",
+    "skill": "debugger",
+    "context": "upload_error",
+    "confidence": "high"
+  },
+  {
+    "query": "email sending fails silently",
+    "skill": "debugger",
+    "context": "email_error",
+    "confidence": "high"
+  },
+  {
+    "query": "redis connection refused",
+    "skill": "debugger",
+    "context": "redis_error",
+    "confidence": "high"
+  },
+  {
+    "query": "design message queue system",
+    "skill": "architect",
+    "context": "messaging",
+    "confidence": "high"
+  },
+  {
+    "query": "implement rate limiting",
+    "skill": "architect",
+    "context": "security",
+    "confidence": "high"
+  },
+  {
+    "query": "setup ci cd pipeline",
+    "skill": "architect",
+    "context": "devops",
+    "confidence": "medium"
+  },
+  {
+    "query": "implement search functionality",
+    "skill": "architect",
+    "context": "search",
+    "confidence": "high"
+  },
+  {
+    "query": "handle file storage at scale",
+    "skill": "architect",
+    "context": "storage",
+    "confidence": "high"
+  },
+  {
+    "query": "explain prototype chain",
+    "skill": "explainer",
+    "context": "javascript",
+    "confidence": "high"
+  },
+  {
+    "query": "how does garbage collection work",
+    "skill": "explainer",
+    "context": "memory",
+    "confidence": "high"
+  },
+  {
+    "query": "what are generators in python",
+    "skill": "explainer",
+    "context": "python",
+    "confidence": "high"
+  },
+  {
+    "query": "explain docker containers",
+    "skill": "explainer",
+    "context": "docker",
+    "confidence": "high"
+  },
+  {
+    "query": "document database schema",
+    "skill": "explainer",
+    "context": "documentation",
+    "confidence": "high"
+  },
+  {
+    "query": "write tests for edge cases",
+    "skill": "tester",
+    "context": "edge_cases",
+    "confidence": "high"
+  },
+  {
+    "query": "test database transactions",
+    "skill": "tester",
+    "context": "integration",
+    "confidence": "high"
+  },
+  {
+    "query": "setup test fixtures",
+    "skill": "tester",
+    "context": "fixtures",
+    "confidence": "medium"
+  },
+  {
+    "query": "test concurrent access",
+    "skill": "tester",
+    "context": "concurrency",
+    "confidence": "high"
+  },
+  {
+    "query": "validate api response schema",
+    "skill": "tester",
+    "context": "validation",
+    "confidence": "medium"
+  },
+  {
+    "query": "why is API endpoint crashing",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "troubleshoot search failure",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "runtime error in React component",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "creating causing runtime error",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "why is API endpoint slow",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "fix crash in backend",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "database query returning 403",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "troubleshoot filter failure",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "undefined variable in login form",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "auth service returning 500",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "connection refused in payment gateway",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "debug upload not working",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "debug search not working",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "syntax error exception in testing",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "403 forbidden exception in development",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "500 exception in testing",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "403 forbidden in payment gateway",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "troubleshoot login failure",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "email service returning 502",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "fix timeout in database",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "memory leak exception in development",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "payment gateway returning 403",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "debug search not working",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "undefined variable exception in production",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "auth service returning 503",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "troubleshoot payment failure",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "403 forbidden in API endpoint",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "troubleshoot login failure",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "troubleshoot login failure",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "deleting causing deadlock",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "why is websocket crashing",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "connection refused exception in development",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "why is websocket broken",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "debug filter not working",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "null pointer exception in testing",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "queue worker returning 500",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "why is API endpoint broken",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "why is cache layer failing",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "deleting causing 403 forbidden",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "debug filter not working",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "500 exception in production",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "troubleshoot login failure",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "type error exception in testing",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "debug search not working",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "fix crash in API",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "connection refused in file upload",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "React component returning 502",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "401 unauthorized in email service",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "debug upload not working",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "updating causing syntax error",
+    "skill": "debugger",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "connection refused exception in production",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "debug search not working",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "updating causing memory leak",
+    "skill": "debugger",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "creating causing connection refused",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "type error in queue worker",
+    "skill": "debugger",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "refactor middleware to microservices",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "best practice for testing",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "refactor websocket to better performance",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "architecture for API",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "design search for 10M users",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for caching",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "design login for 10M users",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to structure framework",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for queueing",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for queueing",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "architecture for library",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for logging",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "how to structure CLI tool",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "how to structure serverless",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "refactor file upload to better performance",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to structure serverless",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "design upload for 10M users",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "design login for 1M users",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "best practice for development",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "scale cache layer to 100K RPS",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for queueing",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "design search for 10M users",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "architecture for CLI tool",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "scale login form to 10K RPS",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "architecture for API",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "design upload for 1K users",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for logging",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "scale file upload to 1K RPS",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "database schema for e-commerce",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "architecture for microservices",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "how to structure monolith",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "scale React component to 100K RPS",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "database schema for e-commerce",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "best practice for testing",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for queueing",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "architecture for microservices",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "scale payment gateway to 10K RPS",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for caching",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "scale login form to 10K RPS",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for caching",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "best practice for production",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "how to structure microservices",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "best practice for production",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "pattern for auth",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "database schema for e-commerce",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "refactor API endpoint to better performance",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "refactor database query to microservices",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "scale API endpoint to 100K RPS",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "refactor database query to microservices",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "database schema for banking",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "database schema for e-commerce",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "database schema for social network",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "best practice for development",
+    "skill": "architect",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "database schema for e-commerce",
+    "skill": "architect",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "database schema for social network",
+    "skill": "architect",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "purpose of factory",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "why use Redis",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "difference between REST and NoSQL",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "what does decorator do",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of factory",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "document payment",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "explain how replication works",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of factory",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "difference between GraphQL and NoSQL",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to use Express",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "document search",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of singleton",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of factory",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "document login",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "document filter",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to use FastAPI",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "why use WebSockets",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to use FastAPI",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "how to use Django",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of observer",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "how to use FastAPI",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "document payment",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "what does decorator do",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "document filter",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "understand quicksort",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of strategy",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "why use Redis",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "what does decorator do",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "what does decorator do",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "why use Kafka",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of strategy",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "why use GraphQL",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "difference between GraphQL and SQL",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "how to use Django",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "explain how dependency injection works",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "difference between GraphQL and NoSQL",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "explain how promises works",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "explain how caching works",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "what does function do",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "explain how decorators works",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "document payment",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of strategy",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "why use WebSockets",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of singleton",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "why use GraphQL",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "purpose of strategy",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to use FastAPI",
+    "skill": "explainer",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "what does decorator do",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "purpose of strategy",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "explain how CQRS works",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "difference between REST and SQL",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "how to use FastAPI",
+    "skill": "explainer",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "why use WebSockets",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "how to use FastAPI",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "why use WebSockets",
+    "skill": "explainer",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/users",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "mock queue",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "test error scenario",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "coverage for auth",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "write tests for email service",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/orders",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "integration test for /api/orders",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/products",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "coverage for user",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "write tests for API endpoint",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "mock queue",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "mock queue",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "mock database",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "e2e test for login",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "write tests for login form",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "test search with Cypress",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "e2e test for checkout",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for product",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for product",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for product",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for user",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "unit tests for hash_password",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "e2e test for signup",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "test success scenario",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "integration test for /api/users",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "mock cache",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "unit tests for middleware",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "integration test for /api/products",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "unit tests for execute_query",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "mock API",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "test search with Mocha",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for user",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "mock database",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "e2e test for login",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/users",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "unit tests for log_event",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "e2e test for login",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "test error scenario",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/orders",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "write tests for middleware",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "unit tests for fetch_data",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "e2e test for checkout",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "medium"
+  },
+  {
+    "query": "unit tests for parse_json",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "e2e test for login",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "medium"
+  },
+  {
+    "query": "unit tests for send_email",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "test search with Jest",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "unit tests for send_email",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for user",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "coverage for user",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/users",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  },
+  {
+    "query": "mock database",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "write tests for file upload",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "medium"
+  },
+  {
+    "query": "e2e test for signup",
+    "skill": "tester",
+    "context": "general",
+    "confidence": "high"
+  },
+  {
+    "query": "mock API",
+    "skill": "tester",
+    "context": "urgent",
+    "confidence": "high"
+  },
+  {
+    "query": "integration test for /api/products",
+    "skill": "tester",
+    "context": "specific",
+    "confidence": "high"
+  }
+]

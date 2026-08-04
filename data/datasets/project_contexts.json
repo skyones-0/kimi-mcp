@@ -1,0 +1,871 @@
+[
+  {
+    "project_type": "react",
+    "files": [
+      "src/App.js",
+      "src/components/Login.jsx",
+      "src/components/Dashboard.jsx",
+      "src/hooks/useAuth.js",
+      "src/services/api.js",
+      "src/utils/helpers.js",
+      "package.json",
+      "public/index.html"
+    ],
+    "query": "fix login bug",
+    "expected_files": [
+      "src/components/Login.jsx",
+      "src/hooks/useAuth.js",
+      "src/services/api.js"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/user.py",
+      "routes/auth.py",
+      "routes/api.py",
+      "services/database.py",
+      "utils/validators.py",
+      "config.py",
+      "requirements.txt"
+    ],
+    "query": "authenticate user endpoint",
+    "expected_files": [
+      "routes/auth.py",
+      "models/user.py",
+      "services/database.py"
+    ]
+  },
+  {
+    "project_type": "express",
+    "files": [
+      "server.js",
+      "routes/users.js",
+      "routes/posts.js",
+      "middleware/auth.js",
+      "models/User.js",
+      "controllers/userController.js",
+      "config/database.js",
+      "package.json"
+    ],
+    "query": "user registration not working",
+    "expected_files": [
+      "routes/users.js",
+      "controllers/userController.js",
+      "models/User.js"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "project/settings.py",
+      "project/urls.py",
+      "app/models.py",
+      "app/views.py",
+      "app/serializers.py",
+      "app/tests.py",
+      "requirements.txt"
+    ],
+    "query": "create api endpoint for products",
+    "expected_files": [
+      "app/views.py",
+      "app/serializers.py",
+      "app/models.py",
+      "project/urls.py"
+    ]
+  },
+  {
+    "project_type": "vue",
+    "files": [
+      "src/main.js",
+      "src/App.vue",
+      "src/components/Header.vue",
+      "src/store/index.js",
+      "src/views/Home.vue",
+      "src/router/index.js",
+      "package.json",
+      "vue.config.js"
+    ],
+    "query": "navigation menu not updating",
+    "expected_files": [
+      "src/components/Header.vue",
+      "src/router/index.js",
+      "src/store/index.js"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/items.py",
+      "routers/users.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "database connection error",
+    "expected_files": [
+      "database/connection.py",
+      "main.py",
+      "services/crud.py"
+    ]
+  },
+  {
+    "project_type": "react",
+    "files": [
+      "src/App.tsx",
+      "src/components/Button.tsx",
+      "src/components/Form.tsx",
+      "src/hooks/useForm.ts",
+      "src/types/index.ts",
+      "src/utils/validation.ts",
+      "tsconfig.json",
+      "package.json"
+    ],
+    "query": "form validation typescript types",
+    "expected_files": [
+      "src/utils/validation.ts",
+      "src/types/index.ts",
+      "src/hooks/useForm.ts"
+    ]
+  },
+  {
+    "project_type": "nestjs",
+    "files": [
+      "src/main.ts",
+      "src/app.module.ts",
+      "src/users/users.controller.ts",
+      "src/users/users.service.ts",
+      "src/users/users.module.ts",
+      "src/auth/auth.guard.ts",
+      "src/database/prisma.service.ts"
+    ],
+    "query": "protect routes with authentication",
+    "expected_files": [
+      "src/auth/auth.guard.ts",
+      "src/users/users.controller.ts",
+      "src/app.module.ts"
+    ]
+  },
+  {
+    "project_type": "python-cli",
+    "files": [
+      "cli.py",
+      "commands/init.py",
+      "commands/build.py",
+      "commands/deploy.py",
+      "utils/config.py",
+      "utils/logger.py",
+      "setup.py",
+      "requirements.txt"
+    ],
+    "query": "add new command to cli",
+    "expected_files": [
+      "cli.py",
+      "commands/init.py",
+      "setup.py"
+    ]
+  },
+  {
+    "project_type": "nextjs",
+    "files": [
+      "pages/index.tsx",
+      "pages/api/hello.ts",
+      "components/Layout.tsx",
+      "lib/api.ts",
+      "styles/globals.css",
+      "next.config.js",
+      "package.json"
+    ],
+    "query": "ssr data fetching not working",
+    "expected_files": [
+      "pages/index.tsx",
+      "lib/api.ts",
+      "pages/api/hello.ts"
+    ]
+  },
+  {
+    "project_type": "react-native",
+    "files": [
+      "App.js",
+      "src/screens/HomeScreen.js",
+      "src/screens/ProfileScreen.js",
+      "src/navigation/AppNavigator.js",
+      "src/components/Button.js",
+      "src/services/api.js",
+      "package.json"
+    ],
+    "query": "navigation between screens",
+    "expected_files": [
+      "src/navigation/AppNavigator.js",
+      "src/screens/HomeScreen.js",
+      "src/screens/ProfileScreen.js"
+    ]
+  },
+  {
+    "project_type": "spring-boot",
+    "files": [
+      "src/main/java/com/example/Application.java",
+      "src/main/java/com/example/controller/UserController.java",
+      "src/main/java/com/example/service/UserService.java",
+      "src/main/java/com/example/model/User.java",
+      "src/main/java/com/example/repository/UserRepository.java",
+      "src/main/resources/application.properties",
+      "pom.xml"
+    ],
+    "query": "rest api for user crud operations",
+    "expected_files": [
+      "src/main/java/com/example/controller/UserController.java",
+      "src/main/java/com/example/service/UserService.java",
+      "src/main/java/com/example/repository/UserRepository.java"
+    ]
+  },
+  {
+    "project_type": "angular",
+    "files": [
+      "src/app/app.component.ts",
+      "src/app/app.module.ts",
+      "src/app/services/data.service.ts",
+      "src/app/components/list/list.component.ts",
+      "src/app/components/detail/detail.component.ts",
+      "src/app/models/item.model.ts",
+      "angular.json"
+    ],
+    "query": "fetch data from api and display",
+    "expected_files": [
+      "src/app/services/data.service.ts",
+      "src/app/components/list/list.component.ts"
+    ]
+  },
+  {
+    "project_type": "laravel",
+    "files": [
+      "app/Http/Controllers/UserController.php",
+      "app/Models/User.php",
+      "app/Services/AuthService.php",
+      "routes/web.php",
+      "routes/api.php",
+      "database/migrations/2023_create_users_table.php",
+      "composer.json"
+    ],
+    "query": "user registration with validation",
+    "expected_files": [
+      "app/Http/Controllers/UserController.php",
+      "app/Models/User.php",
+      "routes/api.php"
+    ]
+  },
+  {
+    "project_type": "go-api",
+    "files": [
+      "main.go",
+      "handlers/user.go",
+      "models/user.go",
+      "db/connection.go",
+      "middleware/auth.go",
+      "routes/routes.go",
+      "go.mod"
+    ],
+    "query": "implement jwt authentication middleware",
+    "expected_files": [
+      "middleware/auth.go",
+      "handlers/user.go",
+      "routes/routes.go"
+    ]
+  },
+  {
+    "project_type": "ruby-on-rails",
+    "files": [
+      "app/controllers/users_controller.rb",
+      "app/models/user.rb",
+      "app/views/users/index.html.erb",
+      "config/routes.rb",
+      "db/migrate/20230101_create_users.rb",
+      "Gemfile"
+    ],
+    "query": "list all users with pagination",
+    "expected_files": [
+      "app/controllers/users_controller.rb",
+      "app/views/users/index.html.erb",
+      "config/routes.rb"
+    ]
+  },
+  {
+    "project_type": "svelte",
+    "files": [
+      "src/App.svelte",
+      "src/components/Counter.svelte",
+      "src/stores/counter.js",
+      "src/routes/index.svelte",
+      "src/lib/utils.js",
+      "svelte.config.js",
+      "package.json"
+    ],
+    "query": "share state between components",
+    "expected_files": [
+      "src/stores/counter.js",
+      "src/components/Counter.svelte",
+      "src/App.svelte"
+    ]
+  },
+  {
+    "project_type": "rust-api",
+    "files": [
+      "src/main.rs",
+      "src/routes/mod.rs",
+      "src/routes/users.rs",
+      "src/models/user.rs",
+      "src/db/mod.rs",
+      "Cargo.toml"
+    ],
+    "query": "database connection pool setup",
+    "expected_files": [
+      "src/db/mod.rs",
+      "src/main.rs",
+      "src/routes/users.rs"
+    ]
+  },
+  {
+    "project_type": "flutter",
+    "files": [
+      "lib/main.dart",
+      "lib/screens/home_screen.dart",
+      "lib/screens/login_screen.dart",
+      "lib/services/api_service.dart",
+      "lib/models/user.dart",
+      "lib/widgets/custom_button.dart",
+      "pubspec.yaml"
+    ],
+    "query": "api integration with http client",
+    "expected_files": [
+      "lib/services/api_service.dart",
+      "lib/models/user.dart",
+      "lib/screens/home_screen.dart"
+    ]
+  },
+  {
+    "project_type": "elixir-phoenix",
+    "files": [
+      "lib/my_app_web/router.ex",
+      "lib/my_app_web/controllers/user_controller.ex",
+      "lib/my_app/accounts/user.ex",
+      "lib/my_app/accounts.ex",
+      "config/config.exs",
+      "mix.exs"
+    ],
+    "query": "create user with changeset validation",
+    "expected_files": [
+      "lib/my_app/accounts/user.ex",
+      "lib/my_app/accounts.ex",
+      "lib/my_app_web/controllers/user_controller.ex"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Payment.py",
+      "routes/Payment.py",
+      "services/Payment.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "optimize payment query",
+    "expected_files": [
+      "models/Payment.py",
+      "routes/Payment.py",
+      "services/Payment.py"
+    ]
+  },
+  {
+    "project_type": "react",
+    "files": [
+      "src/App.js",
+      "src/components/Payment.jsx",
+      "src/hooks/usePayment.js",
+      "src/services/api.js",
+      "src/utils/helpers.js",
+      "package.json"
+    ],
+    "query": "fix payment bug",
+    "expected_files": [
+      "src/components/Payment.jsx",
+      "src/hooks/usePayment.js"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "filter/models.py",
+      "filter/views.py",
+      "filter/serializers.py",
+      "filter/urls.py",
+      "requirements.txt"
+    ],
+    "query": "add filter model",
+    "expected_files": [
+      "filter/models.py",
+      "filter/views.py",
+      "filter/serializers.py",
+      "filter/urls.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Auth.py",
+      "routes/Auth.py",
+      "services/Auth.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "optimize auth query",
+    "expected_files": [
+      "models/Auth.py",
+      "routes/Auth.py",
+      "services/Auth.py"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "user/models.py",
+      "user/views.py",
+      "user/serializers.py",
+      "user/urls.py",
+      "requirements.txt"
+    ],
+    "query": "optimize user",
+    "expected_files": [
+      "user/models.py",
+      "user/views.py",
+      "user/serializers.py",
+      "user/urls.py"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "product/models.py",
+      "product/views.py",
+      "product/serializers.py",
+      "product/urls.py",
+      "requirements.txt"
+    ],
+    "query": "fix product view",
+    "expected_files": [
+      "product/models.py",
+      "product/views.py",
+      "product/serializers.py",
+      "product/urls.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Filter.py",
+      "routes/Filter.py",
+      "services/Filter.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "optimize filter query",
+    "expected_files": [
+      "models/Filter.py",
+      "routes/Filter.py",
+      "services/Filter.py"
+    ]
+  },
+  {
+    "project_type": "express",
+    "files": [
+      "server.js",
+      "routes/Order.js",
+      "controllers/OrderController.js",
+      "models/Order.js",
+      "middleware/auth.js",
+      "config/database.js"
+    ],
+    "query": "debug order",
+    "expected_files": [
+      "routes/Order.js",
+      "controllers/OrderController.js",
+      "models/Order.js",
+      "middleware/auth.js"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "filter/models.py",
+      "filter/views.py",
+      "filter/serializers.py",
+      "filter/urls.py",
+      "requirements.txt"
+    ],
+    "query": "add filter model",
+    "expected_files": [
+      "filter/models.py",
+      "filter/views.py",
+      "filter/serializers.py",
+      "filter/urls.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Order.py",
+      "routes/Order.py",
+      "services/Order.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "fix order endpoint",
+    "expected_files": [
+      "models/Order.py",
+      "routes/Order.py",
+      "services/Order.py"
+    ]
+  },
+  {
+    "project_type": "express",
+    "files": [
+      "server.js",
+      "routes/Filter.js",
+      "controllers/FilterController.js",
+      "models/Filter.js",
+      "middleware/auth.js",
+      "config/database.js"
+    ],
+    "query": "debug filter",
+    "expected_files": [
+      "routes/Filter.js",
+      "controllers/FilterController.js",
+      "models/Filter.js",
+      "middleware/auth.js"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/Search.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "test search",
+    "expected_files": [
+      "routers/Search.py"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/Auth.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "fix auth endpoint",
+    "expected_files": [
+      "routers/Auth.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Filter.py",
+      "routes/Filter.py",
+      "services/Filter.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "add filter validation",
+    "expected_files": [
+      "models/Filter.py",
+      "routes/Filter.py",
+      "services/Filter.py"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "user/models.py",
+      "user/views.py",
+      "user/serializers.py",
+      "user/urls.py",
+      "requirements.txt"
+    ],
+    "query": "fix user view",
+    "expected_files": [
+      "user/models.py",
+      "user/views.py",
+      "user/serializers.py",
+      "user/urls.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Search.py",
+      "routes/Search.py",
+      "services/Search.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "optimize search query",
+    "expected_files": [
+      "models/Search.py",
+      "routes/Search.py",
+      "services/Search.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Order.py",
+      "routes/Order.py",
+      "services/Order.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "optimize order query",
+    "expected_files": [
+      "models/Order.py",
+      "routes/Order.py",
+      "services/Order.py"
+    ]
+  },
+  {
+    "project_type": "react",
+    "files": [
+      "src/App.js",
+      "src/components/Auth.jsx",
+      "src/hooks/useAuth.js",
+      "src/services/api.js",
+      "src/utils/helpers.js",
+      "package.json"
+    ],
+    "query": "add auth test",
+    "expected_files": [
+      "src/components/Auth.jsx",
+      "src/hooks/useAuth.js"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Auth.py",
+      "routes/Auth.py",
+      "services/Auth.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "add auth validation",
+    "expected_files": [
+      "models/Auth.py",
+      "routes/Auth.py",
+      "services/Auth.py"
+    ]
+  },
+  {
+    "project_type": "flask",
+    "files": [
+      "app.py",
+      "models/Auth.py",
+      "routes/Auth.py",
+      "services/Auth.py",
+      "utils/validators.py",
+      "config.py"
+    ],
+    "query": "add auth validation",
+    "expected_files": [
+      "models/Auth.py",
+      "routes/Auth.py",
+      "services/Auth.py"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/Search.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "add search schema",
+    "expected_files": [
+      "routers/Search.py"
+    ]
+  },
+  {
+    "project_type": "express",
+    "files": [
+      "server.js",
+      "routes/Filter.js",
+      "controllers/FilterController.js",
+      "models/Filter.js",
+      "middleware/auth.js",
+      "config/database.js"
+    ],
+    "query": "debug filter",
+    "expected_files": [
+      "routes/Filter.js",
+      "controllers/FilterController.js",
+      "models/Filter.js",
+      "middleware/auth.js"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/User.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "fix user endpoint",
+    "expected_files": [
+      "routers/User.py"
+    ]
+  },
+  {
+    "project_type": "react",
+    "files": [
+      "src/App.js",
+      "src/components/Auth.jsx",
+      "src/hooks/useAuth.js",
+      "src/services/api.js",
+      "src/utils/helpers.js",
+      "package.json"
+    ],
+    "query": "add auth test",
+    "expected_files": [
+      "src/components/Auth.jsx",
+      "src/hooks/useAuth.js"
+    ]
+  },
+  {
+    "project_type": "react",
+    "files": [
+      "src/App.js",
+      "src/components/Filter.jsx",
+      "src/hooks/useFilter.js",
+      "src/services/api.js",
+      "src/utils/helpers.js",
+      "package.json"
+    ],
+    "query": "fix filter bug",
+    "expected_files": [
+      "src/components/Filter.jsx",
+      "src/hooks/useFilter.js"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "order/models.py",
+      "order/views.py",
+      "order/serializers.py",
+      "order/urls.py",
+      "requirements.txt"
+    ],
+    "query": "fix order view",
+    "expected_files": [
+      "order/models.py",
+      "order/views.py",
+      "order/serializers.py",
+      "order/urls.py"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "filter/models.py",
+      "filter/views.py",
+      "filter/serializers.py",
+      "filter/urls.py",
+      "requirements.txt"
+    ],
+    "query": "fix filter view",
+    "expected_files": [
+      "filter/models.py",
+      "filter/views.py",
+      "filter/serializers.py",
+      "filter/urls.py"
+    ]
+  },
+  {
+    "project_type": "django",
+    "files": [
+      "manage.py",
+      "user/models.py",
+      "user/views.py",
+      "user/serializers.py",
+      "user/urls.py",
+      "requirements.txt"
+    ],
+    "query": "add user model",
+    "expected_files": [
+      "user/models.py",
+      "user/views.py",
+      "user/serializers.py",
+      "user/urls.py"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/Auth.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "add auth schema",
+    "expected_files": [
+      "routers/Auth.py"
+    ]
+  },
+  {
+    "project_type": "fastapi",
+    "files": [
+      "main.py",
+      "routers/Filter.py",
+      "models/schemas.py",
+      "services/crud.py",
+      "database/connection.py",
+      "requirements.txt"
+    ],
+    "query": "fix filter endpoint",
+    "expected_files": [
+      "routers/Filter.py"
+    ]
+  }
+]
